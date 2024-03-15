@@ -1,0 +1,446 @@
+.appDevServices {
+  padding: 90px 0;
+}
+@media screen and (max-width: 992px) {
+  .appDevServices {
+    padding: 60px 0;
+  }
+}
+@media screen and (max-width: 576px) {
+  .appDevServices {
+    padding: 40px 0;
+  }
+}
+.appDevServices .appServicesWrap {
+  margin-top: 60px;
+}
+@media screen and (max-width: 576px) {
+  .appDevServices .appServicesWrap {
+    margin-top: 40px;
+  }
+}
+.appDevServices .appServicesWrap .elementRGap {
+  row-gap: 60px;
+}
+@media screen and (max-width: 576px) {
+  .appDevServices .appServicesWrap .elementRGap {
+    row-gap: 42px;
+  }
+}
+.appDevServices .appServicesWrap .TextBox {
+  background: rgba(255, 236, 204, 0.3019607843);
+  padding: 32px 43px 17px 40px;
+  height: 100%;
+  position: relative;
+}
+@media screen and (max-width: 1200px) {
+  .appDevServices .appServicesWrap .TextBox {
+    padding: 32px 35px 17px 35px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .appDevServices .appServicesWrap .TextBox {
+    padding: 32px 20px 17px 20px;
+  }
+}
+.appDevServices .appServicesWrap .TextBox .borderDiv {
+  position: absolute;
+  top: -25px;
+  width: 48px;
+  height: 48px;
+  border: 1px solid #ffeccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 576px) {
+  .appDevServices .appServicesWrap .TextBox .borderDiv {
+    width: 38px;
+    height: 38px;
+    top: -19px;
+  }
+}
+.appDevServices .appServicesWrap .TextBox .numBox {
+  width: 36px;
+  height: 36px;
+  background: #ffeccc;
+}
+@media screen and (max-width: 576px) {
+  .appDevServices .appServicesWrap .TextBox .numBox {
+    width: 28px;
+    height: 28px;
+  }
+}
+.appDevServices .appServicesWrap .TextBox .numBox .number {
+  font-family: "Karla";
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 37px;
+  letter-spacing: -0.4px;
+}
+@media screen and (max-width: 576px) {
+  .appDevServices .appServicesWrap .TextBox .numBox .number {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+.appDevServices .appServicesWrap .TextBox .title {
+  font-family: "Montserrat-Bold";
+  font-size: 16px;
+  font-style: normal;
+  line-height: 22px;
+  color: black !important;
+  margin-bottom: 15px;
+}
+
+.greenTextt {
+  background: #005248;
+  padding: 83px 0;
+}
+@media screen and (max-width: 992px) {
+  .greenTextt {
+    padding: 70px 0;
+  }
+}
+@media screen and (max-width: 576px) {
+  .greenTextt {
+    padding: 40px 0;
+  }
+}
+.greenTextt .Gtext {
+  text-align: center;
+  font-family: "Karla";
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 36px;
+  color: white;
+  padding: 0 30px;
+  margin-bottom: 0;
+}
+@media screen and (max-width: 992px) {
+  .greenTextt .Gtext {
+    font-size: 22px;
+    line-height: 34px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .greenTextt .Gtext {
+    padding: 0 20px;
+    font-size: 20px;
+    line-height: 32px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .greenTextt .Gtext {
+    padding: 0 0px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+
+.technologies {
+  padding: 90px 0 60px;
+}
+@media screen and (max-width: 992px) {
+  .technologies {
+    padding: 70px 0 60px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .technologies {
+    padding: 40px 0 40px;
+  }
+}
+.technologies .techGap {
+  row-gap: 42px;
+}
+.technologies .techHead {
+  font-family: "Montserrat-Bold";
+  font-size: 36px;
+  font-style: normal;
+  width: 915px;
+  line-height: 50px;
+  letter-spacing: -1.08px;
+  color: black;
+  margin-bottom: 56px;
+}
+@media screen and (max-width: 1200px) {
+  .technologies .techHead {
+    width: auto;
+    font-size: 30px;
+    line-height: 42px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .technologies .techHead {
+    font-size: 26px;
+    line-height: 38px;
+    margin-bottom: 46px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .technologies .techHead {
+    font-size: 22px;
+    line-height: 34px;
+    margin-bottom: 32px;
+  }
+}
+.technologies .imgBox {
+  height: 100%;
+  background: #fff;
+  box-shadow: 0px 0px 15px 0px rgba(229, 229, 229, 0.8);
+  text-align: center;
+  padding: 22px 16px 16px 16px;
+}
+.technologies .imgBox .Techtitle {
+  color: #000;
+  margin-top: 13px;
+  font-family: "Karla";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: -0.4px;
+  margin-bottom: 6px;
+}
+.technologies .imgBox .techDesc {
+  color: #000;
+  font-family: "Karla";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 0;
+}
+
+.stack {
+  margin-bottom: 60px;
+}
+@media screen and (max-width: 768px) {
+  .stack {
+    margin-bottom: 40px;
+  }
+}
+.stack .stackHead {
+  font-family: "Montserrat-SemiBold";
+  color: #000;
+  text-align: center;
+  font-size: 22px;
+  font-style: normal;
+  line-height: 26px;
+  letter-spacing: -0.44px;
+}
+@media screen and (max-width: 576px) {
+  .stack .stackHead {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+.stack .stackParent {
+  border-top: 1px solid #ffeccc;
+  padding-top: 46px;
+  margin-top: 46px;
+  display: flex;
+  flex-wrap: wrap;
+  -moz-column-gap: 80px;
+       column-gap: 80px;
+  row-gap: 40px;
+  justify-content: center;
+}
+@media screen and (max-width: 992px) {
+  .stack .stackParent {
+    padding-top: 36px;
+    margin-top: 36px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .stack .stackParent {
+    padding-top: 26px;
+    margin-top: 26px;
+    -moz-column-gap: 36px;
+         column-gap: 36px;
+  }
+}
+
+.whyChooseCust {
+  background: linear-gradient(180deg, rgba(255, 236, 204, 0) 0%, rgba(255, 236, 204, 0.49) 100%);
+  padding: 64px 0 93px;
+}
+@media screen and (max-width: 992px) {
+  .whyChooseCust {
+    padding: 60px 0 60px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .whyChooseCust {
+    padding: 20px 0 40px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .whyChooseCust .elemRowGap {
+    row-gap: 30px;
+  }
+}
+.whyChooseCust .whyChooseTitle {
+  font-family: "Montserrat-Bold";
+  font-size: 36px;
+  font-style: normal;
+  width: 690px;
+  line-height: 50px;
+  letter-spacing: -1.08px;
+  color: black;
+  margin-bottom: 78px;
+}
+@media screen and (max-width: 1200px) {
+  .whyChooseCust .whyChooseTitle {
+    font-size: 34px;
+    line-height: 48px;
+    margin-bottom: 68px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .whyChooseCust .whyChooseTitle {
+    margin-bottom: 35px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .whyChooseCust .whyChooseTitle {
+    font-size: 26px;
+    line-height: 42px;
+    width: auto;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .whyChooseCust .whyChooseTitle {
+    font-size: 22px;
+    line-height: 35px;
+    margin-bottom: 25px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .whyChooseCust .leftSec {
+    padding-right: 10px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .whyChooseCust .rightSec {
+    padding-left: 10px;
+  }
+}
+.whyChooseCust .rightSec .WCcustomApp button:focus {
+  outline: none;
+}
+.whyChooseCust .rightSec .WCcustomApp button.owl-dot span {
+  width: 15px;
+  height: 15px;
+  background: #d6d6d6;
+  display: block;
+  transition: opacity 0.2s ease;
+  border-radius: 30px;
+  margin-right: 10px;
+}
+@media screen and (max-width: 576px) {
+  .whyChooseCust .rightSec .WCcustomApp button.owl-dot span {
+    width: 10px;
+    height: 10px;
+  }
+}
+.whyChooseCust .rightSec .WCcustomApp .owl-dot.active span {
+  background: #005248 !important;
+}
+.whyChooseCust .rightSec .WCcustomApp .rightWrap p {
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 1400px) {
+  .whyChooseCust .rightSec .WCcustomApp .rightWrap p {
+    margin-bottom: 22px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .whyChooseCust .rightSec .WCcustomApp .rightWrap p {
+    margin-bottom: 16px;
+  }
+}
+.whyChooseCust .rightSec .WCcustomApp .rightWrap .num {
+  font-family: "Montserrat-Bold";
+  font-size: 94px;
+  font-style: normal;
+  line-height: normal;
+  margin-bottom: 6px;
+  color: transparent;
+  -webkit-text-stroke: 2px #00cc8e;
+  margin-top: -20px;
+}
+@media screen and (max-width: 1400px) {
+  .whyChooseCust .rightSec .WCcustomApp .rightWrap .num {
+    font-size: 90px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .whyChooseCust .rightSec .WCcustomApp .rightWrap .num {
+    font-size: 72px;
+    margin-top: -16px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .whyChooseCust .rightSec .WCcustomApp .rightWrap .num {
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 576px) {
+  .whyChooseCust .rightSec .WCcustomApp .rightWrap .num {
+    font-size: 60px;
+    margin-bottom: 5px;
+  }
+}
+.whyChooseCust .rightSec .WCcustomApp .rightWrap .title {
+  font-family: "Montserrat-Bold";
+  font-size: 24px;
+  font-style: normal;
+  line-height: normal;
+  color: black;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 992px) {
+  .whyChooseCust .rightSec .WCcustomApp .rightWrap .title {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+}
+.whyChooseCust .spportDiv .smallTitle {
+  text-align: center;
+  font-family: "Karla";
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 36px;
+  color: #005248;
+  margin-top: 90px;
+  margin-bottom: 0;
+}
+@media screen and (max-width: 992px) {
+  .whyChooseCust .spportDiv .smallTitle {
+    font-size: 22px;
+    line-height: 34px;
+    margin-top: 80px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .whyChooseCust .spportDiv .smallTitle {
+    font-size: 20px;
+    line-height: 32px;
+    margin-top: 60px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .whyChooseCust .spportDiv .smallTitle {
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 40px;
+  }
+}/*# sourceMappingURL=newStyle.css.map */

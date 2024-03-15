@@ -1,0 +1,9 @@
+
+User-agent: *
+Disallow: 
+Disallow: /asesa-new/
+Disallow: /page-not-found
+
+
+Sitemap: https://asesasoft.com/sitemap.xml
+Sitemap: https://asesasoft.com/sitemapimages.xml

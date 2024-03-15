@@ -1,0 +1,25 @@
+body{
+    font-family: 'Montserrat-Regular';
+}
+.nav-pills a:hover{color: #F5A61C !important;}
+.nav-pills a{
+    font-size: 14px;
+    transition: color 0.4s ease;
+}
+.dContainer .leftBar{
+    background: #081D5E;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.dContainer{
+    background: #E5E5E5;
+}
+.nav-pills .nav-link.active{
+    background: #E5E5E5;
+    color: #F5A61C;
+    border-radius: 0;
+}
+table td{font-size: 14px;}
+table tr:hover{background: rgba(8, 29, 94,.8);color: #FFFFFF;}

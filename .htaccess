@@ -1,0 +1,19 @@
+# RewriteEngine On
+    
+RewriteCond %{SERVER_PORT} 80
+RewriteCond %{HTTP_HOST} ^(www\.)?asesasoft\.com
+RewriteRule ^(.*)$ https://asesasoft.com/$1 [R,L]
+
+# RewriteEngine On
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://asesasoft.com/$1 [R,L]
+
+# Remove .php extension from URL
+RewriteCond %{THE_REQUEST} /([^.]+)\.php [NC]
+RewriteRule ^ /%1 [NC,L,R]
+
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php  [NC,L]
+
+
+ErrorDocument 404   https://asesasoft.com/page-not-found.php
